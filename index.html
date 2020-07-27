@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"><!-- link to css  -->
    
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg" href="/assets/images/icon.svg" />
@@ -18,12 +19,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-     <!-- Animations Links -->
-     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 <body>
     <!-- navigation -->
-    <nav class="navbar navbar-expand-sm fixed-top" style="background: #25B43C">
+    <nav  class="navbar navbar-expand-sm fixed-top" style="background: #25B43C">
         <a class="navbar-brand" href="index.html"><img src="./assets/images/logo.svg" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon">
@@ -69,11 +69,15 @@
       <img src="./assets/images/hero.png" class="sm"  style="width: 100%;height: 130vh;" alt="">
       <img src="./assets/images/hero2.png" class="md"  style="width: 100%;height: 130vh;" alt="">
       <div class="card-img-overlay d-flex justify-content-center align-items-center ">
-        <div class="text-center expand sm-2" style="margin-top: -70%;">
+        <div data-aos="fade-in" 
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out" class="text-center expand sm-2" data-aos-once="true" style="margin-top: -70%; transform: translateY(-19%);">
           <h1 class="sans s1 s">WE CLEAN WITH A SMILE</h1>
            <h1 class="mon s2 s-2">The best among the rest!</h1>
            <div class="d-flex justify-content-center">
-            <div class="d-flex dd m-auto">
+            <div data-aos="fade-in" 
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out" class="d-flex dd m-auto">
               <a href="#" class="p-2 m-2 sans s-3 btn btn-light" style="border: 2px solid #fff;color: rgba(0, 0, 0, 0.459);border-radius: 20px;background-color: #fff;">LEARN MORE</a>   <a href="#" class="btn btn-outline-light h-1 p-2 s-3 m-2 sans" style="border: 2px solid #fff;color: white;border-radius: 20px;">GET A QUOTE</a>
             </div>
            </div>
@@ -85,13 +89,17 @@
     <div class="jumbotron text-left rounded-0" style="margin:0;background-color: #fff;" id="About-us">
       <div class="container" style="margin-top:30px">
         <div class="row">
-          <div class="col-sm-8 col-md-6">
+          <div  data-aos="fade-right" 
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out" data-aos-once="true" class="col-sm-8 col-md-6">
             <h1 class="sans green s" >Welcome!</h1>
             <h3> <span class="green s-4">CLEANA</span> <span class="mon s-4">, a Professional 
               Cleaning Services</span></h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           </div>
-          <div class="col-sm-4 col-md-6">
+          <div data-aos="fade-left" 
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out" data-aos-once="true" class="col-sm-4 col-md-6">
           
             <div class="card text-white p-0" style="background: none;padding: 0;margin: 0;">
               <img src="./assets/images/img1.jpg" style="width: 100%;" alt="">
@@ -111,13 +119,17 @@
  
 
     <div class="jumbotron text-center rounded-0" style="margin-bottom:0;background: #E2FFE6;height: 100vh" id="Services">
-      <div class="container " style="margin-top:30px">
-      <h1 class="text-center pb-5 mb-5 sans green s" style="padding-bottom: 10rem;">SERVICES</h1>
+      <div class="container-fluid " style="margin-top:30px">
+      <h1 data-aos="fade-in" 
+      data-aos-duration="1500"
+      data-aos-easing="ease-in-out" class="text-center pb-5 mb-5 sans green s" style="padding-bottom: 10rem;">SERVICES</h1>
 
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-4 ">
 
-            <div class="card text-center margin" style="width: 22rem;background-color: #fff;">
+            <div data-aos="zoom-in" 
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"  data-aos-once="true" class="card text-center margin" style="width: 22rem;background-color: #fff;">
               <img class="card-img-top" src="./assets/images/s1.jpg" alt="service image">
               <div class="card-body" style="background-color: #25B43C;">
                 <h4 class="card-text text-white">LAUNDRY</h4>
@@ -126,7 +138,9 @@
             </div>
 
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 ">
+          <div data-aos="zoom-in" 
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out"  data-aos-once="true" class="col-sm-12 col-md-6 col-lg-4 ">
             <div class="card text-center margin" style="width: 22rem;background-color: #fff;">
               <img class="card-img-top" src="./assets/images/s2.jpg" alt="service image">
               <div class="card-body" style="background-color: #25B43C;">
@@ -135,7 +149,9 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-4 ">
+          <div data-aos="zoom-in" 
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out"  data-aos-once="true" class="col-sm-12 col-md-6 col-lg-4 ">
             <div class="card text-center margin" style="width: 22rem;background-color: #fff;">
               <img class="card-img-top" src="./assets/images/s3.jpg" alt="service image">
               <div class="card-body" style="background-color: #25B43C;">
@@ -158,22 +174,28 @@
 
         <div class="container md" style="margin-top:30px">
 
-           <h1 class="text-center pb-5 mb-5 sans green">OUR PROCESS</h1>
+           <h1 data-aos="fade-in" 
+           data-aos-duration="1500"
+           data-aos-easing="ease-in-out"  data-aos-once="true" class="text-center pb-5 mb-5 sans green">OUR PROCESS</h1>
           
           <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-4 ">
   
-              <div class="card text-center margin" style="width: 22rem;background-color: #fff;border: 5px solid #fff;">
+              <div data-aos="zoom-in" 
+              data-aos-duration="1500"
+              data-aos-easing="ease-in-out"  data-aos-once="true" class="card text-center margin" style="width: 22rem;background-color: #fff;border: 5px solid #fff;">
                 <img class="card-img-top" src="./assets/images/os1.svg" alt="service image" style="height: 8rem;margin-bottom: 2rem;"> 
                 <div class="card-body" style="border: 1px solid #25B43C;border-radius: 64px;background: none;">
                   <h4 class="card-text ">BOOK AN APPOINTMENT</h4>
-                  <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                  <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  </p>
                 </div>
               </div>
           
   
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 ">
+            <div data-aos="zoom-in" 
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"  data-aos-once="true" class="col-sm-12 col-md-6 col-lg-4 ">
               <div class="card text-center margin" style="width: 22rem;background-color: #fff;border: 5px solid #fff;">
                 <img class="card-img-top" src="./assets/images/os2.svg" alt="service image" style="height: 8rem;margin-bottom: 2rem;"> 
                 <div class="card-body" style="border: 1px solid #25B43C;border-radius: 64px;background: none;">
@@ -183,7 +205,9 @@
               </div>
           
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-4 ">
+            <div data-aos="zoom-in" 
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"  data-aos-once="true" class="col-sm-12 col-md-6 col-lg-4 ">
               <div class="card text-center margin" style="width: 22rem;background-color: #fff;border: 5px solid #fff;">
                 <img class="card-img-top" src="./assets/images/os3.svg" alt="service image" style="height: 8rem;margin-bottom: 2rem;"> 
                 <div class="card-body" style="border: 1px solid #25B43C;border-radius: 64px;background: none;">
@@ -240,13 +264,17 @@
 
 
    <div class="jumbotron text-center rounded-0" id="Portfolio" style="margin-bottom:0;background: #E2FFE6;height: 100vh">
-    <div class="container " style="margin-top:30px">
-      <h1 class="text-center pb-5 mb-5 sans green s" style="padding-bottom: 10rem;">PORTFOLIO</h1>
+    <div class="container-fluid " style="margin-top:30px">
+      <h1 data-aos="fade-in" 
+      data-aos-duration="1500"
+      data-aos-easing="ease-in-out"  data-aos-once="true" class="text-center pb-5 mb-5 sans green s" style="padding-bottom: 10rem;">PORTFOLIO</h1>
 
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-4 ">
 
-          <div class="card text-left margin" style="width: 22rem;background-color: #fff;">
+          <div data-aos="zoom-in" 
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out"  data-aos-once="true" class="card text-left margin" style="width: 22rem;background-color: #fff;">
             <img class="card-img-top" src="./assets/images/p1.jpg" alt="Portfolioimage" style="height: 15rem;">
             <div class="card-body" style="background-color: #fff;;">
               <h4 class="card-text ">SKY SCRAPPER CLEANING</h4>
@@ -255,7 +283,9 @@
           </div>
 
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 ">
+        <div data-aos="zoom-in" 
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"  data-aos-once="true" class="col-sm-12 col-md-6 col-lg-4 ">
           <div class="card text-left margin" style="width: 22rem;background-color: #fff;">
             <img class="card-img-top" src="./assets/images/p2.jpg" alt="Portfolio image" style="height: 15rem;">
             <div class="card-body" style="background-color: #fff;">
@@ -264,7 +294,20 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-4 ">
+        <div data-aos="zoom-in" 
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"  data-aos-once="true" class="col-sm-12 col-md-6 col-lg-4 ">
+          <div class="card text-left margin" style="width: 22rem;background-color: #fff;">
+            <img class="card-img-top" src="./assets/images/p3.jpg" alt="Portfolio image" style="height: 15rem;">
+            <div class="card-body" style="background-color: #fff;">
+              <h4 class="card-text">OFFICE and GLASS EXTERIOR</h4>
+              <p class="card-text">Atlass Oil & Gas Ltd </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- <div class="col-sm-12 col-md-6 col-lg-4 ">
           <div class="card text-left margin" style="width: 22rem;background-color: #fff;">
             <img class="card-img-top" src="./assets/images/p3.jpg" alt="Portfolio image" style="height: 15rem;">
             <div class="card-body" style="background-color: #fff;;">
@@ -272,7 +315,7 @@
               <p class="card-text">Atlass Oil & Gas Ltd </p>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     </div>
@@ -288,16 +331,20 @@
 
     <div class="d-flex justify-content-center align-items-center" >
 
-      <div class="container " style="margin-top:30px">
+      <div class="container-fluid " style="margin-top:30px">
 
         <div style="padding-bottom: 8rem;" class="n-m">
-         <h1 class="text-center n-m mb-3 sans green s" > TESTIMONIALS</h1>
+         <h1 data-aos="fade-in" 
+         data-aos-duration="1500"
+         data-aos-easing="ease-in-out"  data-aos-once="true" class="text-center n-m mb-3 sans green s" > TESTIMONIALS</h1>
 
         </div>        
-        <div class="row">
+        <div class="row" style="position: relative;">
           <div class="col-sm-12 col-md-6 col-lg-4 ">
 
-            <div class="card text-center margin mx" style="width: 22rem;background: #25B43C;border: 5px solid #25B43C;">
+            <div data-aos="zoom-in" 
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"  data-aos-once="true" class="card text-center margin mx" style="width: 22rem;background: #25B43C;border: 5px solid #25B43C;">
               <img class="card-img-top down rounded-circle" src="./assets/images/t1.jpg" alt="service image" style="height: 8rem;margin-bottom: 0.2rem;"> 
               <div class="card-body" style="border: 1px solid #25B43C;border-radius: 64px;background: none;">
                 <h4 class="card-text text-white">Jeremiah Lin</h4>
@@ -307,7 +354,9 @@
         
 
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 ">
+          <div data-aos="zoom-in" 
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out"  data-aos-once="true" class="col-sm-12 col-md-6 col-lg-4 ">
             <div class="card text-center margin mx" style="width: 22rem;background: #25B43C;border: 5px solid #25B43C;">
               <img class="card-img-top down rounded-circle" src="./assets/images/t2.jpg" alt="service image" style="height: 8rem;margin-bottom: 0.2rem;"> 
               <div class="card-body" style="border: 1px solid #25B43C;border-radius: 64px;background: none;">
@@ -317,9 +366,11 @@
             </div>
         
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-4 ">
+          <div data-aos="zoom-in" 
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out"  data-aos-once="true" class="col-sm-12 col-md-6 col-lg-4 ">
             <div class="card text-center margin mx" style="width: 22rem;background: #25B43C;border: 5px solid #25B43C;">
-              <img class="card-img-top down rounded-circle" src="./assets/images/t3.jpg" alt="service image" style="height: 8rem;margin-bottom: 0.2rem;"> 
+              <img class="card-img-top down rounded-circle mbb" src="./assets/images/t3.jpg" alt="service image" style="height: 8rem;margin-bottom: 0.2rem;"> 
               <div class="card-body" style="border: 1px solid #25B43C;border-radius: 64px;background: none;">
                 <h4 class="card-text text-white">Jessica Pearson</h4>
                 <p class="card-text text-white s-3">“Lorem ipsum dolor sit amet, <br>  consectetur adipiscing elit, sed do <br>  eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
@@ -327,7 +378,9 @@
             </div>
         
           </div>
-      <a href="#" class="p-2 px-4 my-5 text-center ml-auto mr-auto s-2" style="color: white;border-radius: 20px;background-color: #25B43C;">LEARN MORE</a>
+      <a data-aos="ease-in" 
+      data-aos-duration="1500"
+      data-aos-easing="ease-in-out"  data-aos-once="true" href="#" class="p-2 staydown px-4 my-5 text-center ml-auto mr-auto s-2" style="color: white;border-radius: 20px;background-color: #25B43C;">LEARN MORE</a>
 
         </div>
       </div>
@@ -346,13 +399,17 @@
 
         <div class="container"  style="margin-top:30px">
     <div class="py-3">
-      <h1 class="text-center white sans green s" >CONTACT US</h1>
+      <h1 data-aos="fade-in" 
+      data-aos-duration="1500"
+      data-aos-easing="ease-in-out" class="text-center white sans green s" >CONTACT US</h1>
        </div>
     <div class="row">
       <div class="col-sm-4">
        
 
-        <div class="text-left container" style="z-index: 99;">
+        <div data-aos="fade-in" 
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"  data-aos-once="true" class="text-left container" style="z-index: 99;">
           <h4 class="white s-2">CLEANA </h4>
 
           <h4 class="white green s-2">OUR LOCATION</h4>
@@ -369,7 +426,9 @@
 
         <hr class="d-sm-none">
       </div>
-      <div class="col-sm-8">
+      <div data-aos="fade-in" 
+      data-aos-duration="1500"
+      data-aos-easing="ease-in-out" class="col-sm-8">
         
         <div  id="contact" class="text-left container pb-5">
           <form  >
@@ -404,14 +463,14 @@
    <!-- Footer section ends  -->
 
 
-   <footer class="text-center text-white foot" style="background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/about-video.jpg);background-size: cover;  background-position: center; padding: 60px 0 30px;">
+   <footer class="text-center text-white foot" style="background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/about-video.jpg);background-size: cover; background-position: center; padding: 60px 0 30px;background-attachment: fixed;">
     <div class="container">
 
       <div class="footer-navigation">
         <div class="row">
-          <div href="#" class="col-sm-5 mb-2">
-            <p href="#" class="footer-nav-link text-sm-left text-center  text-white font-weight-bold">CONTACT US</p>
-          <div class="text-sm-left text-center">
+          <div href="#" class="col-sm-5 mb-2  pl-4 pl-sm-0">
+            <p  href="#" class="footer-nav-link text-left text-sm-center   text-white font-weight-bold">CONTACT US</p>
+          <div class="text-sm-center text-left">
             <p>Cleana Cleaning services. <br>
               8500 Lorem Street, Chicago, IL, <br>
                55030, United kingdom. <br>
@@ -422,8 +481,8 @@
           </div>
 
 
-          <div href="#" class="footer-logo col-sm-5 mb-2">
-            <ul class="footer-navs text-sm-left text-center   col-sm-4 trans show" >
+          <div  href="#" class="footer-logo col-sm-5 col-6 mb-2">
+            <ul class="footer-navs text-left    col-sm-4 trans show" >
 
               <li>
                 <a href="#" class="footer-nav-link  text-white font-weight-bold">QUICK LINKS</a>
@@ -450,7 +509,7 @@
           </div>
 
 
-          <ul class="footer-navs text-sm-left text-center ml-auto  col-sm-2 trans show" >
+          <ul class="footer-navs text-left  ml-auto  col-sm-2 col-6 trans show" >
            
             <li class=" mr-3">
               <a href="#" class="footer-nav-link  text-white font-weight-bold">SERVICES</a>
@@ -460,9 +519,6 @@
             </li>
             <li class=" mr-3">
               <a href="#" class="footer-nav-link text-white font-weight-bold">Commercial</a>
-            </li>
-            <li class=" mr-3">
-              <a href="https://caleb-007.github.io/hotels/" class="footer-nav-link  text-white font-weight-bold">Premium</a>
             </li>
             <li class=" mr-3">
               <a href="#" class="footer-nav-link text-white font-weight-bold">Cleaning</a>
@@ -492,5 +548,9 @@
 
     <!-- <img src="./assets/images/border.svg" alt=""> -->
   <script src="./assets/js/app.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
